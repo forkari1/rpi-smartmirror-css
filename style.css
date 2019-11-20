@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    overflow: hidden;
+}
+h1{
+    color: white;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+.top .first{
+    flex: 3;
+}
+.top .second{
+    flex: 4;
+}
+.top .third{
+    flex: 3;
+    width: 100%;
+    height: 100%;
+}
+
+.bot{
+    display: flex;
+    height: 50%;
+}
+.bot .first{
+    flex: 3;
+}
+.bot .second{
+    flex: 4;
+}
+.bot .third{
+    flex: 3;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+color: white;
+background-color: black;
+width: 100%;
+height: 100%;
+
+}
+.Footer{
+width: 90%;
+height: 90%;
+}
+
+.Time{
+width: 60%; 
+height: 15%; 
+text-align: left; 
+font-size: 6vh;
+margin-left: 5%;
+}
+.Day{
+width: 40%; 
+height: 20%; 
+text-align: left; 
+font-size: 4vh; 
+float: left;
+}
+
+.Date{
+width: 25%; 
+height: 20%;
+ text-align: center; 
+float: left;
+font-size: 4vh;
+}
+
+.icon{
+    width: 60%; 
+    height: 40%; 
+    text-align: left; 
+    margin-left: 5%;
+    margin-top: -5%;
+    }
+.temp{
+    width: 80%; 
+    height: 17%; 
+    text-align: left; 
+    font-size: 3.5vh;
+    margin-left: 5%;
+    }
+    .humidity{
+    width: 45%; 
+    height: 20%; 
+    text-align: left; 
+    font-size: 3.5vh; 
+    float: left;
+    }
+    
+    .clouds{
+    width: 55%; 
+    height: 20%;
+     text-align: center; 
+    float: left;
+    font-size: 3.5vh;
+    }
+
+.MonthYear{
+width: 30%; 
+height: 20%;
+text-align: center;
+float: left;
+font-size: 4vh;
+}
+
+#m-booked-weather-bl250-61760{
+align-content: center;
+margin-top: 25%;
+
+}
